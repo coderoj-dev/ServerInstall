@@ -57,6 +57,6 @@ ok
 hostUrl=`hostname -I`
 hostUrl=${hostUrl%% *}
 
-printf "\n${GREEN}Install Success ${RED}CoderOJ ${GREEN}Judger Server ${WHITE}(https://${hostUrl}/JudgerController)\n\n"
+printf "\n${GREEN}Install Success ${RED}CoderOJ ${GREEN}Judger Server ${WHITE}(http://${hostUrl}/JudgerController)\n\n"
 
 
