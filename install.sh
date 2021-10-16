@@ -54,5 +54,9 @@ printf " ${WHITE}- Permission  ${YELLOW}run.sh"
 bash run.sh > runsh.txt 2> error.txt
 ok
 
-printf "\n${GREEN}Install Success ${RED}CoderOJ ${GREEN}Judger Server\n\n"
+hostUrl=`hostname -I`
+hostUrl=${hostUrl%% *}
+
+printf "\n${GREEN}Install Success ${RED}CoderOJ ${GREEN}Judger Server ${WHITE}(https://${hostUrl}/JudgerController)\n\n"
+
 
