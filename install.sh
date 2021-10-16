@@ -12,7 +12,7 @@ sudo apt install -y python3 > python3.txt
 cd ../../var/www/html
 git clone https://github.com/coderoj-dev/JudgerController > gitclone.txt
 cd JudgerController
-bash run.sh > run.sh
+bash run.sh > runsh.txt
 
 printf "Successfully Complete..\n"
 
