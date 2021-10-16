@@ -8,6 +8,7 @@ sudo apt install -y default-jre
 sudo apt install -y python2
 
 cd ..
+cd ..
 cd var/www/html
 cd git clone https://github.com/coderoj-dev/JudgerController
 cd JudgerController
