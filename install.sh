@@ -7,7 +7,9 @@
 #sudo apt install -y default-jre
 #sudo apt install -y python2
 
-cd ../../var/www/html
-git clone https://github.com/coderoj-dev/JudgerController
-cd JudgerController
-bash run.sh
+#cd ../../var/www/html
+#git clone https://github.com/coderoj-dev/JudgerController
+#cd JudgerController
+#bash run.sh
+
+print("SUccess")
