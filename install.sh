@@ -10,6 +10,4 @@
 #cd ../../var/www/html
 #git clone https://github.com/coderoj-dev/JudgerController
 #cd JudgerController
-#bash run.sh
-
-print("SUccess")
+bash run.sh
