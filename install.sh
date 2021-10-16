@@ -8,6 +8,6 @@
 #sudo apt install -y python2
 
 cd ../../var/www/html
-cd git clone https://github.com/coderoj-dev/JudgerController
+git clone https://github.com/coderoj-dev/JudgerController
 cd JudgerController
 bash run.sh
