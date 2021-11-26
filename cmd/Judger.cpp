@@ -147,7 +147,12 @@ int main(int argc, char* argv[]) {
     } else if(args[1] == "docker_install"){
         Docker docker;
         docker.install();
-    }else if(args[1] == "test"){
+    } else if(args[1] == "install"){
+        Docker docker;
+        docker.install();
+        DefaultPort defaultPort;
+        defaultPort.run();
+    } else if(args[1] == "test"){
         cout << "Working Judger Install System\n";
     }
 
