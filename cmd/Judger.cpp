@@ -49,6 +49,14 @@ struct Port {
     }
 };
 
+struct Docker{
+
+    void install(){
+        string cmd = "sudo apt-get update && apt install -y docker.io";
+        exec(cmd);
+    }
+};
+
 struct DockerImage {
     DockerImage() {}
 
@@ -136,7 +144,10 @@ int main(int argc, char* argv[]) {
         else if(args[2] == "stop") defaultPort.stop();
         else if(args[2] == "reset") defaultPort.reset();
         else if(args[2] == "hard_reset") defaultPort.hardReset();
-    } else if(args[1] == "test"){
+    } else if(args[1] == "docker_install"){
+        Docker docker;
+        docker.install();
+    }else if(args[1] == "test"){
         cout << "Working Judger Install System\n";
     }
 
