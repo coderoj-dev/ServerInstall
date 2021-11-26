@@ -1,3 +1,5 @@
 git clone https://github.com/coderoj-dev/ServerInstall
-cp ServerInstall/judger judger
-./judger test
+cd ServerInstall
+ls
+#cp ServerInstall/judger judger
+#./judger test
