@@ -29,7 +29,7 @@ struct Port {
     - docker run -p --name port_name port_no:80 -d amirhamza05/judger:latest
     */
     void run() {
-        string cmd = "docker run --name "+ this->getPortName() +" -p " + to_string(this->portNo) + ":80 -d " + IMAGE;
+        string cmd = "docker run --name "+ this->getPortName() +" -p " + to_string(this->portNo) + ":80 --privileged -d " + IMAGE;
         exec(cmd);
     }
 
