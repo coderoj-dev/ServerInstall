@@ -76,7 +76,7 @@ struct DefaultPort {
     vector<int>portsNo;
 
     DefaultPort() {
-        portsNo = {81,82,83,84};
+        portsNo = {80};
     }
 
     void run() {
